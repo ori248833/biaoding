@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (ros2_bag_exporter) JobQueued: {'identifier': 'ros2_bag_exporter', 'dependencies': OrderedDict()}
+[0.000208] (ros2_bag_exporter) JobStarted: {'identifier': 'ros2_bag_exporter'}
+[0.004728] (ros2_bag_exporter) JobProgress: {'identifier': 'ros2_bag_exporter', 'progress': 'cmake'}
+[0.005187] (ros2_bag_exporter) Command: {'cmd': ['/usr/bin/cmake', '/home/ori/biaoding_in_out/ros2_bag_exporter', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter'], 'cwd': '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'ori'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg/lib:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ori'), ('OLDPWD', '/home/ori/biaoding_in_out'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1311'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f8395fcd44a9beaccb8775f66a4e1ce9'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ori/install:/home/ori/SDK/gongji_ros2/install:/home/ori/SDK/HesaiLidar_ROS_2.0/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ori'), ('JOURNAL_STREAM', '8:8667'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ori'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/ori/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ori:@/tmp/.ICE-unix/1721,unix/ori:/tmp/.ICE-unix/1721'), ('INVOCATION_ID', '2835fb5c4d0a454db1aaeae4092e0aa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', 'd80aef43-7847-4811-9e92-1e46e390c61d'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ori/install/ros2_bag_exporter:/home/ori/SDK/gongji_ros2/install/cpp_pubsub:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter'), ('CUDA_HOME', '/usr/local/cuda-12.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f8395fcd44a9beaccb8775f66a4e1ce9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ori/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/flatpak/exports/share:/home/hopkit/.local/share/flatpak/exports/share'), ('PYTHONPATH', '/home/ori/SDK/gongji_ros2/install/gnss_ins_msg/local/lib/python3.10/dist-packages:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ori/OpenPCDet'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ori/install/ros2_bag_exporter:/home/ori/SDK/gongji_ros2/install/cpp_pubsub:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver:/opt/ros/humble')]), 'shell': False}
+[0.099687] (-) TimerEvent: {}
+[0.138523] (ros2_bag_exporter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199861] (-) TimerEvent: {}
+[0.246760] (ros2_bag_exporter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.254725] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299976] (-) TimerEvent: {}
+[0.342262] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.349838] (ros2_bag_exporter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.350255] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.350950] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.353750] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400100] (-) TimerEvent: {}
+[0.439833] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.447539] (ros2_bag_exporter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.447960] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.448414] (ros2_bag_exporter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.456282] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500250] (-) TimerEvent: {}
+[0.594622] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600396] (-) TimerEvent: {}
+[0.639859] (ros2_bag_exporter) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.665803] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700571] (-) TimerEvent: {}
+[0.711715] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.715133] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.721206] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.729937] (ros2_bag_exporter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.740421] (ros2_bag_exporter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.771969] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.773966] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800736] (-) TimerEvent: {}
+[0.860247] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.891448] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900846] (-) TimerEvent: {}
+[0.917769] (ros2_bag_exporter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.930806] (ros2_bag_exporter) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000982] (-) TimerEvent: {}
+[1.022433] (ros2_bag_exporter) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.022797] (ros2_bag_exporter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101132] (-) TimerEvent: {}
+[1.109322] (ros2_bag_exporter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.110529] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.156240] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.179630] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.200965] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.201144] (-) TimerEvent: {}
+[1.226171] (ros2_bag_exporter) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.235310] (ros2_bag_exporter) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.271954] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.272257] (ros2_bag_exporter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.301317] (-) TimerEvent: {}
+[1.314353] (ros2_bag_exporter) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.328230] (ros2_bag_exporter) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.374414] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.374659] (ros2_bag_exporter) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.401457] (-) TimerEvent: {}
+[1.501833] (-) TimerEvent: {}
+[1.602199] (-) TimerEvent: {}
+[1.702585] (-) TimerEvent: {}
+[1.803031] (-) TimerEvent: {}
+[1.903467] (-) TimerEvent: {}
+[2.003818] (-) TimerEvent: {}
+[2.104162] (-) TimerEvent: {}
+[2.204505] (-) TimerEvent: {}
+[2.304875] (-) TimerEvent: {}
+[2.392530] (ros2_bag_exporter) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.404965] (-) TimerEvent: {}
+[2.409815] (ros2_bag_exporter) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.455175] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.456812] (ros2_bag_exporter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.505092] (-) TimerEvent: {}
+[2.527200] (ros2_bag_exporter) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.605233] (-) TimerEvent: {}
+[2.634462] (ros2_bag_exporter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.639187] (ros2_bag_exporter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.646243] (ros2_bag_exporter) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.705411] (-) TimerEvent: {}
+[2.742754] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.805546] (-) TimerEvent: {}
+[2.839588] (ros2_bag_exporter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.905750] (-) TimerEvent: {}
+[2.920874] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.921207] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.921564] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.922274] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.922631] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.923215] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.923392] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.923465] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.924003] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.924420] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.924945] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.925485] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.925845] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.926407] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.926751] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.927248] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.927736] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.928315] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.928797] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.929280] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.929735] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.929901] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.930392] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.930913] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.931423] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.933402] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[2.952553] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.953525] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.953677] (ros2_bag_exporter) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.005898] (-) TimerEvent: {}
+[3.021340] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.032600] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[3.034708] (ros2_bag_exporter) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.103137] (ros2_bag_exporter) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.106000] (-) TimerEvent: {}
+[3.150565] (ros2_bag_exporter) StdoutLine: {'line': b'-- Generating done\n'}
+[3.156578] (ros2_bag_exporter) StdoutLine: {'line': b'-- Build files have been written to: /home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter\n'}
+[3.168143] (ros2_bag_exporter) CommandEnded: {'returncode': 0}
+[3.168590] (ros2_bag_exporter) JobProgress: {'identifier': 'ros2_bag_exporter', 'progress': 'build'}
+[3.169115] (ros2_bag_exporter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter', '--', '-j20', '-l20'], 'cwd': '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'ori'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg/lib:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ori'), ('OLDPWD', '/home/ori/biaoding_in_out'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1311'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f8395fcd44a9beaccb8775f66a4e1ce9'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ori/install:/home/ori/SDK/gongji_ros2/install:/home/ori/SDK/HesaiLidar_ROS_2.0/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ori'), ('JOURNAL_STREAM', '8:8667'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ori'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/ori/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ori:@/tmp/.ICE-unix/1721,unix/ori:/tmp/.ICE-unix/1721'), ('INVOCATION_ID', '2835fb5c4d0a454db1aaeae4092e0aa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', 'd80aef43-7847-4811-9e92-1e46e390c61d'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ori/install/ros2_bag_exporter:/home/ori/SDK/gongji_ros2/install/cpp_pubsub:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter'), ('CUDA_HOME', '/usr/local/cuda-12.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f8395fcd44a9beaccb8775f66a4e1ce9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ori/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/flatpak/exports/share:/home/hopkit/.local/share/flatpak/exports/share'), ('PYTHONPATH', '/home/ori/SDK/gongji_ros2/install/gnss_ins_msg/local/lib/python3.10/dist-packages:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ori/OpenPCDet'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ori/install/ros2_bag_exporter:/home/ori/SDK/gongji_ros2/install/cpp_pubsub:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver:/opt/ros/humble')]), 'shell': False}
+[3.206102] (-) TimerEvent: {}
+[3.222530] (ros2_bag_exporter) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bag_exporter.dir/src/bag_exporter.cpp.o\x1b[0m\n'}
+[3.306195] (-) TimerEvent: {}
+[3.406410] (-) TimerEvent: {}
+[3.506630] (-) TimerEvent: {}
+[3.606874] (-) TimerEvent: {}
+[3.707088] (-) TimerEvent: {}
+[3.807338] (-) TimerEvent: {}
+[3.907635] (-) TimerEvent: {}
+[4.007915] (-) TimerEvent: {}
+[4.108228] (-) TimerEvent: {}
+[4.208514] (-) TimerEvent: {}
+[4.308750] (-) TimerEvent: {}
+[4.408964] (-) TimerEvent: {}
+[4.509229] (-) TimerEvent: {}
+[4.609486] (-) TimerEvent: {}
+[4.709748] (-) TimerEvent: {}
+[4.810004] (-) TimerEvent: {}
+[4.910258] (-) TimerEvent: {}
+[5.010506] (-) TimerEvent: {}
+[5.110842] (-) TimerEvent: {}
+[5.211154] (-) TimerEvent: {}
+[5.311394] (-) TimerEvent: {}
+[5.411658] (-) TimerEvent: {}
+[5.511929] (-) TimerEvent: {}
+[5.612182] (-) TimerEvent: {}
+[5.712432] (-) TimerEvent: {}
+[5.812730] (-) TimerEvent: {}
+[5.913010] (-) TimerEvent: {}
+[6.013292] (-) TimerEvent: {}
+[6.113621] (-) TimerEvent: {}
+[6.213853] (-) TimerEvent: {}
+[6.314097] (-) TimerEvent: {}
+[6.414350] (-) TimerEvent: {}
+[6.514565] (-) TimerEvent: {}
+[6.614791] (-) TimerEvent: {}
+[6.715034] (-) TimerEvent: {}
+[6.815302] (-) TimerEvent: {}
+[6.915538] (-) TimerEvent: {}
+[7.015789] (-) TimerEvent: {}
+[7.116068] (-) TimerEvent: {}
+[7.216323] (-) TimerEvent: {}
+[7.316566] (-) TimerEvent: {}
+[7.416800] (-) TimerEvent: {}
+[7.517025] (-) TimerEvent: {}
+[7.617298] (-) TimerEvent: {}
+[7.717575] (-) TimerEvent: {}
+[7.817798] (-) TimerEvent: {}
+[7.918034] (-) TimerEvent: {}
+[8.018268] (-) TimerEvent: {}
+[8.118504] (-) TimerEvent: {}
+[8.218714] (-) TimerEvent: {}
+[8.318917] (-) TimerEvent: {}
+[8.419144] (-) TimerEvent: {}
+[8.470729] (ros2_bag_exporter) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bag_exporter\x1b[0m\n'}
+[8.519257] (-) TimerEvent: {}
+[8.619522] (-) TimerEvent: {}
+[8.719791] (-) TimerEvent: {}
+[8.820023] (-) TimerEvent: {}
+[8.920268] (-) TimerEvent: {}
+[9.020484] (-) TimerEvent: {}
+[9.093087] (ros2_bag_exporter) StdoutLine: {'line': b'[100%] Built target bag_exporter\n'}
+[9.101286] (ros2_bag_exporter) CommandEnded: {'returncode': 0}
+[9.101845] (ros2_bag_exporter) JobProgress: {'identifier': 'ros2_bag_exporter', 'progress': 'install'}
+[9.107069] (ros2_bag_exporter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter'], 'cwd': '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'ori'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg/lib:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ori'), ('OLDPWD', '/home/ori/biaoding_in_out'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1311'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f8395fcd44a9beaccb8775f66a4e1ce9'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ori/install:/home/ori/SDK/gongji_ros2/install:/home/ori/SDK/HesaiLidar_ROS_2.0/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'ori'), ('JOURNAL_STREAM', '8:8667'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ori'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/ori/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ori:@/tmp/.ICE-unix/1721,unix/ori:/tmp/.ICE-unix/1721'), ('INVOCATION_ID', '2835fb5c4d0a454db1aaeae4092e0aa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('TILIX_ID', 'd80aef43-7847-4811-9e92-1e46e390c61d'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ori/install/ros2_bag_exporter:/home/ori/SDK/gongji_ros2/install/cpp_pubsub:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter'), ('CUDA_HOME', '/usr/local/cuda-12.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f8395fcd44a9beaccb8775f66a4e1ce9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ori/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/flatpak/exports/share:/home/hopkit/.local/share/flatpak/exports/share'), ('PYTHONPATH', '/home/ori/SDK/gongji_ros2/install/gnss_ins_msg/local/lib/python3.10/dist-packages:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ori/OpenPCDet'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ori/install/ros2_bag_exporter:/home/ori/SDK/gongji_ros2/install/cpp_pubsub:/home/ori/SDK/gongji_ros2/install/gnss_ins_msg:/home/ori/SDK/HesaiLidar_ROS_2.0/install/hesai_ros_driver:/opt/ros/humble')]), 'shell': False}
+[9.113553] (ros2_bag_exporter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.113912] (ros2_bag_exporter) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.114160] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/lib/ros2_bag_exporter/bag_exporter\n'}
+[9.120568] (-) TimerEvent: {}
+[9.122294] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/bag_exporter.hpp\n'}
+[9.129624] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/base_handler.hpp\n'}
+[9.138531] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/compressed_image_handler.hpp\n'}
+[9.147980] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/depth_image_handler.hpp\n'}
+[9.157196] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/gps_handler.hpp\n'}
+[9.167188] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/image_handler.hpp\n'}
+[9.176095] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/imu_handler.hpp\n'}
+[9.183950] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/ir_image_handler.hpp\n'}
+[9.192329] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/laser_scan_handler.hpp\n'}
+[9.202155] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/odometry_handler.hpp\n'}
+[9.207706] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/path_handler.hpp\n'}
+[9.215455] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/pointcloud_handler.hpp\n'}
+[9.220666] (-) TimerEvent: {}
+[9.224245] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter//exporter_config.yaml\n'}
+[9.230535] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ament_index/resource_index/package_run_dependencies/ros2_bag_exporter\n'}
+[9.238961] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ament_index/resource_index/parent_prefix_path/ros2_bag_exporter\n'}
+[9.247792] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/ament_prefix_path.sh\n'}
+[9.257416] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/ament_prefix_path.dsv\n'}
+[9.267068] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/path.sh\n'}
+[9.275575] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/path.dsv\n'}
+[9.283782] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.bash\n'}
+[9.291659] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.sh\n'}
+[9.299702] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.zsh\n'}
+[9.308015] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.dsv\n'}
+[9.316928] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/package.dsv\n'}
+[9.320742] (-) TimerEvent: {}
+[9.325237] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ament_index/resource_index/packages/ros2_bag_exporter\n'}
+[9.333237] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/cmake/ros2_bag_exporterConfig.cmake\n'}
+[9.340604] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/cmake/ros2_bag_exporterConfig-version.cmake\n'}
+[9.348539] (ros2_bag_exporter) StdoutLine: {'line': b'-- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/package.xml\n'}
+[9.359624] (ros2_bag_exporter) CommandEnded: {'returncode': 0}
+[9.376212] (ros2_bag_exporter) JobEnded: {'identifier': 'ros2_bag_exporter', 'rc': 0}
+[9.376793] (-) EventReactorShutdown: {}

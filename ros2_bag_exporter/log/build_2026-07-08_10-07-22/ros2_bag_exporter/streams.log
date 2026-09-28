@@ -1,0 +1,127 @@
+[0.007s] Invoking command in '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ori/biaoding_in_out/ros2_bag_exporter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.247s] -- The CXX compiler identification is GNU 11.4.0
+[0.255s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.354s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.448s] -- Detecting CXX compile features - done
+[0.456s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.595s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.640s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.666s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.712s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.715s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.721s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.772s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.774s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.860s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.891s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.931s] -- Looking for pthread.h
+[1.022s] -- Looking for pthread.h - found
+[1.023s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.110s] -- Found Threads: TRUE  
+[1.156s] -- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.180s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.201s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.226s] -- Checking for module 'eigen3'
+[1.235s] --   Found eigen3, version 3.4.0
+[1.272s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.272s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.314s] -- Checking for module 'flann'
+[1.328s] --   Found flann, version 1.9.1
+[1.374s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.375s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.392s] -- Checking for module 'libusb-1.0'
+[2.410s] --   Found libusb-1.0, version 1.0.25
+[2.455s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.457s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.527s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.634s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.639s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.646s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.743s] -- Found Qhull version 8.0.2
+[2.840s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.921s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.921s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.921s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.922s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.922s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.923s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.923s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.923s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.924s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.924s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.925s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.925s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.926s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.926s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.927s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.927s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.928s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.928s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.929s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.929s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.930s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.930s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.930s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.931s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.931s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.933s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.952s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.953s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.954s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.021s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.033s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.035s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.103s] -- Configuring done
+[3.151s] -- Generating done
+[3.156s] -- Build files have been written to: /home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter
+[3.168s] Invoked command in '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ori/biaoding_in_out/ros2_bag_exporter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter
+[3.169s] Invoking command in '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter -- -j20 -l20
+[3.222s] [ 50%] [32mBuilding CXX object CMakeFiles/bag_exporter.dir/src/bag_exporter.cpp.o[0m
+[8.471s] [100%] [32m[1mLinking CXX executable bag_exporter[0m
+[9.093s] [100%] Built target bag_exporter
+[9.101s] Invoked command in '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter -- -j20 -l20
+[9.107s] Invoking command in '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter
+[9.113s] -- Install configuration: ""
+[9.114s] -- Execute custom install script
+[9.114s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/lib/ros2_bag_exporter/bag_exporter
+[9.122s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/bag_exporter.hpp
+[9.129s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/base_handler.hpp
+[9.138s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/compressed_image_handler.hpp
+[9.148s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/depth_image_handler.hpp
+[9.157s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/gps_handler.hpp
+[9.167s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/image_handler.hpp
+[9.176s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/imu_handler.hpp
+[9.184s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/ir_image_handler.hpp
+[9.192s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/laser_scan_handler.hpp
+[9.202s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/odometry_handler.hpp
+[9.208s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/path_handler.hpp
+[9.215s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/include//rosbag2_exporter/handlers/pointcloud_handler.hpp
+[9.224s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter//exporter_config.yaml
+[9.230s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ament_index/resource_index/package_run_dependencies/ros2_bag_exporter
+[9.239s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ament_index/resource_index/parent_prefix_path/ros2_bag_exporter
+[9.248s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/ament_prefix_path.sh
+[9.257s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/ament_prefix_path.dsv
+[9.267s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/path.sh
+[9.275s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/environment/path.dsv
+[9.284s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.bash
+[9.292s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.sh
+[9.300s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.zsh
+[9.308s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/local_setup.dsv
+[9.317s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/package.dsv
+[9.325s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ament_index/resource_index/packages/ros2_bag_exporter
+[9.333s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/cmake/ros2_bag_exporterConfig.cmake
+[9.340s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/cmake/ros2_bag_exporterConfig-version.cmake
+[9.349s] -- Symlinking: /home/ori/biaoding_in_out/ros2_bag_exporter/install/ros2_bag_exporter/share/ros2_bag_exporter/package.xml
+[9.360s] Invoked command in '/home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ori/biaoding_in_out/ros2_bag_exporter/build/ros2_bag_exporter
